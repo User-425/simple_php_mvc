@@ -11,7 +11,6 @@ class DatabaseSeeder {
     public function run() {
         $this->userModel->createUser('Admin', 'admin@mail.com', 'password', 'Admin');
         $this->userModel->createUser('User', 'user@mail.com', 'password', 'User');
-
         echo "Database seeded successfully.\n";
     }
 }
